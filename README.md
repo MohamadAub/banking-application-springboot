@@ -34,31 +34,47 @@ Tech Stack
 - Maven
 
 spring-boot-starter-actuator
+
 spring-boot-starter-data-jpa
+
 spring-boot-starter-security
+
 spring-boot-starter-web
+
 spring-boot-devtools
+
 com.h2database:h2
+
 org.projectlombok:lombok
+
 io.springfox:springfox-swagger2
+
 io.springfox:springfox-swagger-ui
+
 spring-boot-starter-test
+
 spring-security-test
 
 Getting Started
+
 1️⃣ Clone the repository
+
 git clone https://github.com/MohamadAub/banking-application-springboot.git
+
 2️⃣ Open the project in your IDE
 
 Make sure Lombok is installed and enabled in your IDE
+
 ➡ [Lombok Setup Guide](https://projectlombok.org/setup/eclipse)
 
 3️⃣ Run the project
 
 mvn clean install
+
 mvn spring-boot:run
 
 Access the Application
+
 ➤ Swagger UI (API Docs)
 
 http://localhost:8989/bank-api/swagger-ui.html
@@ -68,10 +84,13 @@ http://localhost:8989/bank-api/swagger-ui.html
 http://localhost:8989/bank-api/h2-console
 
 Use this JDBC URL:
+
 jdbc:h2:mem:testdb
+
 Testing the API
 
 You can test all endpoints using Swagger UI or Postman.
+
 Example request files are located in /src/test/resources.
 
 License
